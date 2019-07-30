@@ -1,0 +1,7 @@
+.equ UART_TXD, 0x00
+.equ UART_RXD, 0x04
+.equ UART_TX_CTRL, 0x08
+.equ UART_RX_CTRL, 0x0C
+-equ UART_IE, 0x10
+.equ UART_IP, 0x14
+.equ UART_BAUD_DIV, 0x18
